@@ -20,6 +20,7 @@
     </a>
 
     <button
+    [routerLink]="['/admin/profile']" 
     *ngIf="isLoggedIn && user"
     mat-icon-button class="example-icon ml20 mr20"
         aria-label="Example icon-button with share icon">
